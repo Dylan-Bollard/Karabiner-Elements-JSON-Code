@@ -9,6 +9,10 @@ Complex modifications differ from simple modifications in a few ways. First, a c
 
 Complex modifications are very useful and follow a simple syntax. This file aims to explore the basic syntax.
 
+# Profiles
+
+It's possible to create distinct profiles for working in different utilities. For example, I have a specific profile for when working in VIM or Nano. 
+
 # Simple Modifications Instructions
 
 https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-simple-modifications/
@@ -40,7 +44,72 @@ Then:
 ~~~~~~~~~~~~~~~
 %sudo% cp filename_path/my-bitchin-code.json ~/.config/karabiner/assets/complex_modifications
 ~~~~~~~~~~~~~~~
-Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". Don't forget to restart Karabiner-Elements after you copy in your code. 
+Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". Don't forget to restart Karabiner-Elements after you copy in your code. This is a good place to store development code. However, to properly instasll the code it must be put into the "karabiner.json" file found in the above extension. Here is a quick before and after for where you would import a complex modification into the karabiner.json document.
+
+BEFORE:
+~~~~~~~~~~~~~~~~~~
+{
+    "global": {
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": true,
+        "show_profile_name_in_menu_bar": true
+    },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
+                    "basic.to_delayed_action_delay_milliseconds": 500,
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500,
+                    "mouse_motion_to_scroll.speed": 100
+                },
+            },
+            "devices": [],
+            ...
+~~~~~~~~~~~~~~~~~~
+AFTER: (import to line 67)
+~~~~~
+{
+    "global": {
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": true,
+        "show_profile_name_in_menu_bar": true
+    },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
+                    "basic.to_delayed_action_delay_milliseconds": 500,
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500,
+                    "mouse_motion_to_scroll.speed": 100
+                },
+            "rules": [
+                {
+                    "description": "print_screen to command+shift+3",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "print_screen"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "3",
+                                    "modifiers": [
+                                        "left_command",
+                                        "left_shift"
+                                    ]
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                }
+            ]
+            },
+~~~~~
 
 * Notes
 - it's possible to have multiple files with different rules in each. Although, it's a lot easier to have one concise file. 
@@ -51,3 +120,6 @@ Alternatively, open Karabiner, select menu item Misc, bottom right select "Open 
 PRINT SCREEN BUTTON
 - In macOS the combination "shift + command + 3" will take a screen shot. Example code: [Screen Shot]( ... )
 - Similarly, "shift + command + 4" will let the user define the area of a screen shot. This is mapped to the same "Print Screen" button, however, "shift + Print_Screen" will now give the user the same effect. [User Defined Screen Shot]( ... )
+
+VIM EDITOR
+- The [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) I use has som incredible resources. 
