@@ -126,7 +126,7 @@ VIM EDITOR
 - The [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) I use has some incredible resources. I created a custon [VIM Profile]( ... ) specifically for when I'm working in VIM. 
 
 For example, I hate the h,j,k,l for cursor movement. This movement has been mapped to w,a,s, and d because it feels more natural, especially if you've spent anytime gaming on a PC. These are simple modifications
-~
+~~~~~~~~~~~~~~~~~~~~
 ifbgcisbce
-~
+~~~~~~~~~~~~~~~~~~~~
 ckoincowenw
