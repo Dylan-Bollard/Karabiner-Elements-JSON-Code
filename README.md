@@ -19,7 +19,11 @@ https://ke-complex-modifications.pqrs.org
 
 # Writing You Own Code
 
-[Complex Modification Operators](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/) are the basic syntax for Karabiner Elements. 
+[Complex Modification Operators](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/) are the basic syntax for Karabiner Elements. Rules, examples, and simple scripts can be found in 
+
+~~~~~~~~~~~~~~
+library/Application Support/org.pqrs/Karabiner-Elements
+~~~~~~~~~~~~~~
 
 # Installing Complex Modifications
 
