@@ -1,0 +1,42 @@
+"title": "Page Up and Page Down Buttons for VIM"
+"rules": [
+                    {
+                        "description": "Page Up --> control + b",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "page_up"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "b",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Page Down --> control + f",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "page_down"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                    
+           ]
