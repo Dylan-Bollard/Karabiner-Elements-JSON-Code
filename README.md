@@ -7,7 +7,14 @@ Complex modifications differ from simple modifications in a few ways. First, a c
 
 Complex modifications are very useful and follow a simple syntax. This file aims to explore the basic syntax.
 
+# Simple Modifications Instructions
+
+https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-simple-modifications/
+
 # Pre-Built Complex Modifications
 
 https://ke-complex-modifications.pqrs.org
 
+# Writing You Own Code
+
+[Complex Modification Operators](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/) are the basic syntax for Karabiner Elements. 
