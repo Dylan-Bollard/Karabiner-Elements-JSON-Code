@@ -1,7 +1,7 @@
 # Karabiner-Elements-JSON-Code
 Personal key mappings for use with the Karabiner-Elements mapping software for macOS. Specifically useful for using a WindowsOS associated keyboard with macOS systems.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------
 
 [Karabiner Elements](https://karabiner-elements.pqrs.org) is a utility to help macOS users change keybinds. There are a few other utilities that can do this. Mainly [Automator](https://support.apple.com/guide/automator/welcome/mac) will allow you to map actions to specific key sequences. This can be done in Karabiner using [Complex Modifications](https://ke-complex-modifications.pqrs.org) or simple modifications. 
 
