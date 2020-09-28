@@ -40,4 +40,14 @@ Then:
 ~~~~~~~~~~~~~~~
 %sudo% cp filename_path/my-bitchin-code.json ~/.config/karabiner/assets/complex_modifications
 ~~~~~~~~~~~~~~~
-Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". 
+Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". Don't forget to restart Karabiner-Elements after you copy in your code. 
+
+* Notes
+- it's possible to have multiple files with different rules in each. Although, it's a lot easier to have one concise file. 
+- you still have to toggle on your code options in Karabiner-Elements under menu option Complex Modifications
+
+# Examples
+
+PRINT SCREEN BUTTON
+- In macOS the combination "shift + command + 3" will take a screen shot. Example code: [Screen Shot]( ... )
+- Similarly, "shift + command + 4" will let the user define the area of a screen shot. This is mapped to the same "Print Screen" button, however, "shift + Print_Screen" will now give the user the same effect. [User Defined Screen Shot]( ... )
