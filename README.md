@@ -20,3 +20,20 @@ https://ke-complex-modifications.pqrs.org
 # Writing You Own Code
 
 [Complex Modification Operators](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/) are the basic syntax for Karabiner Elements. 
+
+# Installing Complex Modifications
+
+- [Downloading](https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/) from another [site](https://ke-complex-modifications.pqrs.org)
+- [Database for submitting personal code](https://github.com/pqrs-org/KE-complex_modifications) offers a lot of thie same material.
+
+I started working on this guide for this sole purpose, as it was not apparent how to install personal code. I created a .json file from [XCode](https://developer.apple.com/xcode/) (11.7). First, New Project -> macOS -> command line tool. Save to wherever, change filename to .json. Easy to edit in XCode if you have before.
+
+Assuming you have something like:
+
+my-bitchin-code.json
+
+Then:
+~
+%sudo% cp filename_path/my-bitchin-code.json ~/.config/karabiner/assets/complex_modifications
+~
+Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". 
