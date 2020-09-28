@@ -125,8 +125,29 @@ PRINT SCREEN BUTTON
 VIM EDITOR
 - The [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) I use has some incredible resources. I created a custon [VIM Profile]( ... ) specifically for when I'm working in VIM. 
 
-For example, I hate the h,j,k,l for cursor movement. This movement has been mapped to w,a,s, and d because it feels more natural, especially if you've spent anytime gaming on a PC. These are simple modifications
+For example, I hate the h,j,k,l for cursor movement. This movement has been mapped to w,a,s, and d because it feels more natural, especially if you've spent anytime gaming on a PC. Also, mapping the "Home" and "End" keys commonly found on a WindowsOS keyboard comes in handy. 
 ~~~~~~~~~~~~~~~~~~~~
-ifbgcisbce
+"title": "Home --> Shift + 6"
+"rules": [
+                    {
+                        "description": "Hme --> Shift + 6",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "home"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6,
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+           ]
 ~~~~~~~~~~~~~~~~~~~~
-ckoincowenw
+This let's you move to the beginning of the line using the "Home" key in VIM. You can create something similar wit hthe "End" key. In addition, it's possible to map more of the elements from the [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) using simple or complex commands.
