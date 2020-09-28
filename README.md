@@ -110,8 +110,9 @@ AFTER: (import to line 67)
             ]
             },
 ~~~~~
+You would have to do this same change for each profile in Karabiner-Elements.
 
-* Notes
+Notes
 - it's possible to have multiple files with different rules in each. Although, it's a lot easier to have one concise file. 
 - you still have to toggle on your code options in Karabiner-Elements under menu option Complex Modifications
 
@@ -122,4 +123,10 @@ PRINT SCREEN BUTTON
 - Similarly, "shift + command + 4" will let the user define the area of a screen shot. This is mapped to the same "Print Screen" button, however, "shift + Print_Screen" will now give the user the same effect. [User Defined Screen Shot]( ... )
 
 VIM EDITOR
-- The [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) I use has som incredible resources. 
+- The [VIM Cheat Sheet](https://www.worldtimzone.com/res/vi.html) I use has some incredible resources. I created a custon [VIM Profile]( ... ) specifically for when I'm working in VIM. 
+
+For example, I hate the h,j,k,l for cursor movement. This movement has been mapped to w,a,s, and d because it feels more natural, especially if you've spent anytime gaming on a PC. These are simple modifications
+~
+ifbgcisbce
+~
+ckoincowenw
