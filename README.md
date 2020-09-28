@@ -33,7 +33,7 @@ Assuming you have something like:
 my-bitchin-code.json
 
 Then:
-~
+~~~~~~~~~~~~~~~~~~~~
 %sudo% cp filename_path/my-bitchin-code.json ~/.config/karabiner/assets/complex_modifications
 ~
 Alternatively, open Karabiner, select menu item Misc, bottom right select "Open config folder ...", copy and paste my-bitchin-code.json into folder "complex-modifications". 
