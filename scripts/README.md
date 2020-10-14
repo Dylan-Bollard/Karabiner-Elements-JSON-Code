@@ -11,34 +11,36 @@ The formula becomes pretty easy once you realize how to use it. It would be bene
 
 ### MAPPINGS
 (Insert, Home, Page Up, Delete, End, Page Down above Arrow Keys)
-- Insert -- > i   (*start insert mode at cursor*)
-- Delete --> s    (*delete character at cursor*)
-- Home --> shift + 6  (*beginning of line*)
-- End --> shift + 4   (*end of line*)
-- Page Up --> control + b   (*move up by user-defined amount of lines*) 
-- Page Down --> control + f  (*move down by user-defined amount of lines*) 
+| Key | Mapped To | Description |
+| --- | --- | -- |
+| Insert | i | start insert mode at cursor |
+| Delete | s | delete character at cursor |
+| Home | shift + 6 | move cursor to beginning of line |
+| End | shift + 6 | move cursor to end of line |
+| Page Up | control + b | move up by user-defined amount of lines |
+| Page Down | control + f | move down by user-defined amount of lines |
+
 
 (Home, Pg Up, End, Pg Dn, Ins, Del in NumPad)
-- Insert -- > 
-- Delete --> 
-- Home --> 
-- End --> 
-- Page Up --> 
-- Page Down --> 
+| Key | Mapped To | Description |
+| --- | --- | -- |
+| Insert |  |  |
+| Delete |  |  |
+| Home |  | |
+| End |  |  |
+| Page Up |  |  |
+| Page Down |  |  |
 
-(Arrow Keys on 4,8,2, and 6 on NumPad)
-- Left Arrow -->     
-- Right Arrow -->
-- Down Arrow -->
-- Up Arrow --> 
+(Arrow Keys on 8, 2, 4, and 6 on NumPad)
+| Key | Mapped To | Description |
+| --- | --- | -- |
+| Up Arrow |  |  |
+| Down Arrow |  |  |
+| Left Arrow | shift + b | jump backwards by words |
+| Right Arrow | shift + w | jump forward by words |
 
 
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-
-| Key | Mapped To | Description |
-| --- | --- | -- |
-| git status | List all new or modified files | -- |
-| git diff | Show file differences that haven't been staged | -- |
