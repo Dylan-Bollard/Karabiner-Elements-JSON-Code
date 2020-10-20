@@ -2,7 +2,12 @@
 
 Here is the collection of scripts I've written. If you have anything to add or to edit, just let me know.
 
-The formula becomes pretty easy once you realize how to use it. It would be beneficial for someone to map more functiuon
+The formula becomes pretty easy once you realize how to use it. It would be beneficial for someone to map more functions. 
+
+I've also created different profile variations for different applications. 
+ + General Function (windows keyboard with macOS)
+ + VIM
+ + LaTex Editing
 
 
 # VIM
